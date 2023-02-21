@@ -1,0 +1,11 @@
+.inputs {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.error::after {
+  content: "fill in the blanks";
+  display: block;
+  font-size: 16px;
+  color: red;
+  position: absolute;
+}
